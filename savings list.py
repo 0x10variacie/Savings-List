@@ -176,7 +176,7 @@ while True:
             print("No records so far\n")
                 
 
-    if prompt == str("setcur"):
+    if prompt == str("cur"):
         cur = setcur(cur)
     
     if prompt == str("about"):
@@ -197,7 +197,7 @@ while True:
         print("add - add a new record")
         print("del - delete the recent record")
         print("\nSETTINGS")
-        print("setcur - sets new currency")
+        print("cur - sets new currency")
     if prompt == str("quit"):
         break
     
